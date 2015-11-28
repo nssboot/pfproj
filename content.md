@@ -12,11 +12,11 @@ Miserable! Worst hotel ever. Restaurant: food beyond compare, food beyond belief
 5 star reviews
 
 
-Hotels:
+Hotels: (need 6 per city. content: Name, Description, Address, Service & Amenities, Website, Review)
 
 --San Francisco
 
-Name: Good Hotel
+1) Name: Good Hotel
 Description: This hotel isn't just good for tourists; it's good for the environment, too. The mismatch, colorful furnishings are almost exclusively made from reclaimed and recycled materials, and the hotel's mantra is "Renew, Reuse, Relax." It hopes to inspire and excite its guests to “be good” to the environment, providing a chalkboard wall for feedback instead of note cards, and complimentary bikes for exploring the city. Buzzy nightlife and edgy galleries and shops are just outside, thanks to Good Hotel's trendy SoMa location.
 
 Address: 112 Seventh Street | San Francisco, CA 94103
@@ -55,7 +55,7 @@ Reviews:
 
 ====
 
-Name: Hotel Des Arts
+2) Name: Hotel Des Arts
 
 Description: With rooms showcasing the contemporary works of emerging artists from around the world, the Hotel Des Arts is located in the heart of San Francisco’s French Quarter. At the crossroads of Union Square, the Financial District and right next to the great gates of Chinatown, the Hotel Des Arts is perfectly situated for business or leisure. Be at the center of San Francisco’s charm and culture at the Hotel Des Arts!
 Hotel Des Art provides an environment in which people could experience art in a new and more immediate way. It’s just like staying in a gallery! 
@@ -94,3 +94,205 @@ Reviews:
 
 ==
 
+3)
+Name:
+Description:
+Address:
+Services & Amenities:
+Website:
+Reviews:
+
+==
+
+4) 
+Name:
+Description:
+Address:
+Services & Amenities:
+Website:
+Reviews:
+
+==
+5)
+Name:
+Description:
+Address:
+Services & Amenities:
+Website:
+Reviews:
+==
+
+6) 
+Name:
+Description:
+Address:
+Services & Amenities:
+Website:
+Reviews:
+
+==
+Boston
+1)
+Name:
+Description:
+Address:
+Services & Amenities:
+Website:
+Reviews:
+
+==
+
+2) 
+Name:
+Description:
+Address:
+Services & Amenities:
+Website:
+Reviews:
+
+3)
+Name:
+Description:
+Address:
+Services & Amenities:
+Website:
+Reviews:
+
+==
+
+4) 
+Name:
+Description:
+Address:
+Services & Amenities:
+Website:
+Reviews:
+
+==
+5)
+Name:
+Description:
+Address:
+Services & Amenities:
+Website:
+Reviews:
+==
+
+6) 
+Name:
+Description:
+Address:
+Services & Amenities:
+Website:
+Reviews:
+
+==
+Seattle
+1)
+Name:
+Description:
+Address:
+Services & Amenities:
+Website:
+Reviews:
+
+==
+
+2) 
+Name:
+Description:
+Address:
+Services & Amenities:
+Website:
+Reviews:
+
+3)
+Name:
+Description:
+Address:
+Services & Amenities:
+Website:
+Reviews:
+
+==
+
+4) 
+Name:
+Description:
+Address:
+Services & Amenities:
+Website:
+Reviews:
+
+==
+5)
+Name:
+Description:
+Address:
+Services & Amenities:
+Website:
+Reviews:
+==
+
+6) 
+Name:
+Description:
+Address:
+Services & Amenities:
+Website:
+Reviews:
+==
+New York
+1)
+Name:
+Description:
+Address:
+Services & Amenities:
+Website:
+Reviews:
+
+==
+
+2) 
+Name:
+Description:
+Address:
+Services & Amenities:
+Website:
+Reviews:
+
+3)
+Name:
+Description:
+Address:
+Services & Amenities:
+Website:
+Reviews:
+
+==
+
+4) 
+Name:
+Description:
+Address:
+Services & Amenities:
+Website:
+Reviews:
+
+==
+5)
+Name:
+Description:
+Address:
+Services & Amenities:
+Website:
+Reviews:
+==
+
+6) 
+Name:
+Description:
+Address:
+Services & Amenities:
+Website:
+Reviews:
