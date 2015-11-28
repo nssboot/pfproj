@@ -7,3 +7,8 @@ div img {
 {
   background-color: #660033;
 }
+
+nav div img {
+  height: 10;
+  width: 10;
+}
