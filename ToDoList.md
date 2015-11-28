@@ -37,3 +37,4 @@ Specific Hotel Modal
     Price [ ]
     Reviews [ ]
     Amenities [ ]
+    Location on Google Maps [ ]
