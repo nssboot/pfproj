@@ -18,12 +18,10 @@ Hotels:
 
 Name: Good Hotel
 Description: This hotel isn't just good for tourists; it's good for the environment, too. The mismatch, colorful furnishings are almost exclusively made from reclaimed and recycled materials, and the hotel's mantra is "Renew, Reuse, Relax." It hopes to inspire and excite its guests to “be good” to the environment, providing a chalkboard wall for feedback instead of note cards, and complimentary bikes for exploring the city. Buzzy nightlife and edgy galleries and shops are just outside, thanks to Good Hotel's trendy SoMa location.
-http://www.haiyi-hotels.com/thegoodhotel/
-http://www.refinery29.com/affordable-hotels#slide-8
 
-Good Hotel | 112 Seventh Street | San Francisco, CA 94103
+Address: 112 Seventh Street | San Francisco, CA 94103
 
-Services & Amenities
+Services & Amenities:
 PET FRIENDLY ROOMS AND OUTSTANDING AMENITIES AT THE GOOD HOTEL
 The Good Hotel has been endowed with a contemporary range of features to ensure the comfort of our business and leisure guests. Should you require anything during your stay, our friendly front desk staff is available 24 hours to make arrangements.
 
@@ -51,10 +49,15 @@ On-site self-parking available; $35.00 per night for standard vehicles, SUVs, an
 Hybrid cars receive complimentary parking
 Two (2) ZipCar vehicles located at the hotel
 
+Website: http://www.haiyi-hotels.com/thegoodhotel/
+
+Reviews:
+
 ====
 
-Hotel Des Arts
-With rooms showcasing the contemporary works of emerging artists from around the world, the Hotel Des Arts is located in the heart of San Francisco’s French Quarter. At the crossroads of Union Square, the Financial District and right next to the great gates of Chinatown, the Hotel Des Arts is perfectly situated for business or leisure. Be at the center of San Francisco’s charm and culture at the Hotel Des Arts!
+Name: Hotel Des Arts
+
+Description: With rooms showcasing the contemporary works of emerging artists from around the world, the Hotel Des Arts is located in the heart of San Francisco’s French Quarter. At the crossroads of Union Square, the Financial District and right next to the great gates of Chinatown, the Hotel Des Arts is perfectly situated for business or leisure. Be at the center of San Francisco’s charm and culture at the Hotel Des Arts!
 Hotel Des Art provides an environment in which people could experience art in a new and more immediate way. It’s just like staying in a gallery! 
 With our great location you will find main shopping areas, an excellent variety and selection of restaurants, amazing art galleries, museums, parks, public transportation (like the Cable Car!) and so much more. If you are here on business, we are close by the majority of the convention centers such as The Moscone Center. The best part is that most of these attractions are just within walking distance from Hotel Des Arts! 
 Our friendly staff will provide you with any assistance you may need such as: tour bookings (for Yosemite, Wine Tours, Muir Woods, Monterrey/Carmel and tours around in the City!), transportation arrangements, restaurant recommendations and/or reservations, directions, etc. 
@@ -62,11 +65,9 @@ The Hotel des Arts offers 51 guest rooms at a very affordable price and where yo
 We not only live art in the rooms but in the hallways as well! So come on over and enjoy amazing works of arts from many local and international artists! The majority of the art pieces exhibited in hallways are for sale; it’s just like taking a piece of us with you! 
 To date, the world’s top emerging artists have painted all our rooms with full artistic control. The result is not simply art as decoration, but art as an interactive experience. 
 
-Hotel des Arts
-447 Bush Street,
-San Francisco, 94108 CA
+Address: 447 Bush Street, San Francisco, 94108 CA
 
-Services
+Services & Amenities:
 Check In time     3:00 pm
 Check Out time 12:00 pm
 Complimentary light continental breakfast.
@@ -87,4 +88,9 @@ Microwave available for guest use.
 Safe-deposit boxes available at the front desk.
 Rollaway beds available.
 
-http://www.sfhoteldesarts.com/
+Website: http://www.sfhoteldesarts.com/
+
+Reviews:
+
+==
+
