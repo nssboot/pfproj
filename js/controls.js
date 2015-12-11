@@ -7,7 +7,7 @@ $(document).ready(function() {
         .removeClass("btn-danger")
         .html("GAME ON");
 
-      $(".btn-info").off("click");
+      $(".btn-info").off();
     } else {
       $(this)
         .attr("data-state", "off")
@@ -16,6 +16,7 @@ $(document).ready(function() {
         .html("GAME OFF");
 
       bindControls();
+      enableAnimations();
     }
   });
 
@@ -25,5 +26,14 @@ $(document).ready(function() {
     });    
   }
 
+  var enableAnimations = function() {
+    $(".btn-info").on("mouseover", function() {
+      $(this).toggleClass("btn-default btn-info");
+    }).on("mouseout", function() {
+      $(this).toggleClass("btn-default btn-info");
+    });
+  }
+
   bindControls();
+  enableAnimations();
 });
