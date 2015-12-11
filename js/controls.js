@@ -7,13 +7,17 @@ $(document).ready(function() {
         .removeClass("btn-danger")
         .html("GAME ON");
 
-      $(".btn-info").off();
+      $(".btn-info")
+        .toggleClass("bounce")
+        .off();
     } else {
       $(this)
         .attr("data-state", "off")
         .removeClass("btn-success")
         .addClass("btn-danger")
         .html("GAME OFF");
+
+      $(".btn-info").toggleClass("bounce");
 
       bindControls();
       enableAnimations();
@@ -28,9 +32,9 @@ $(document).ready(function() {
 
   var enableAnimations = function() {
     $(".btn-info").on("mouseover", function() {
-      $(this).toggleClass("btn-default btn-info");
+      $(this).toggleClass("bigEntrance");
     }).on("mouseout", function() {
-      $(this).toggleClass("btn-default btn-info");
+      $(this).toggleClass("bigEntrance");
     });
   }
 
