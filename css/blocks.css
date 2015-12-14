@@ -1,0 +1,13 @@
+.block1, .block2 {
+  width: 100px;
+  height: 100px;
+  display: none;
+}
+
+.block1 {
+  background-color: maroon;
+}
+
+.block2 {
+  background-color: turquoise;
+}
