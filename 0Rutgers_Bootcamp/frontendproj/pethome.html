@@ -6,6 +6,9 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
       <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
       <link rel="stylesheet" href="/css.css">      
+       <script type="text/javascript" src="js/breedselected.js"></script> 
+    <script type="text/javascript" src="js/zipcodeValidate2.js"></script> 
+
 </head>
 <body>		
 <nav class="navbar navbar-default navbar-inverse" style="text-align:center">
@@ -78,7 +81,13 @@
           <ul>
             <h6>
               <li><a href="aboutus.html">About Us</a></li>
-              <li><a href="mobileappssites.html">Mobile Sites and Apps</a></li>
+              <li><a href="mobileappssites.html">Mobile Sites and Apps</a></li>              
+            </h6>           
+          </ul> 
+        </td>  
+        <td>
+          <ul>
+            <h6>              
               <li><a href="freewidgetsandgraphics.html">Free Widgets and Graphics</a></li>
               <li><a href="#">Press</a></li>
             </h6>           
@@ -88,12 +97,18 @@
           <ul>
             <h6>
               <li><a href="partnerships.html">Partnerships</a></li>
-              <li><a href="privacypolicy.html">Privacy Policy</a></li>
+              <li><a href="privacypolicy.html">Privacy Policy</a></li>              
+            </h6> 
+          </ul> 
+        </td>
+        <td>
+          <ul>
+            <h6>              
               <li><a href="termsofservice.html">Terms of Service</a></li>
               <li><a href="careers.html">Careers</a></li> 
             </h6> 
           </ul> 
-        </td>                   
+        </td>                        
       </table> 
     </div>
   </footer>	  
@@ -220,15 +235,13 @@
           </div>                
           <h6><input type="button" class="btn btn-danger" value="Select Breed"></h6>    
 
-    <!--/div> < end of container-->    
-
+    <!--/div> < end of container-->  
     
-      <label for="zipcod">Enter Zip Code<input required type="number" pattern="[0-9]*" maxlength="5" min="5" name="zipcod" Id="zipcod" onkeypress=" zipcodScript(event)"></label>
+      <label for="zipcod">Enter Zip Code<input required type="number" placeholder="e.g. 555512" pattern="[0-9]*" name="zipcod" Id="zipcod" onkeypress="zipcodeValidate2(event)"></label>
+      
     </div> <!--end of container-->
     
-    <script type="text/javascript" src="js/breedselected.js"></script> 
-    <script type="text/javascript" src="js/zipcodevalidation.js"></script> 
-
+   
   
 <body>
 <html>
