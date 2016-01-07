@@ -1,0 +1,201 @@
+<!doctype html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</head>
+	
+<body>
+
+	<div class='container'>
+
+								<div class="container">							 
+								  <p>The form below contains two input elements; one of type text and one of type password:</p>
+									  <form role="form">
+
+									    <div class="form-group">
+									    var usr;
+									      <label for="usr">Name:</label>
+									      <input type="text" class="form-control" id="usr">									      
+									    </div>
+
+									    =======
+									    
+									    <div class="hero-unit">
+													<h1> Title </h1>
+													<p> This form description </p>  
+															<form class="well" name="formInput" action= "#">
+																		<label>Input</label>
+																		<input Id="txtvarInput" class="span3" style="margin: 0pt auto;" type="text" placeholder="AAA, BBB, CCC..."/>               
+																		</label>
+																<div class="form-actions" "span3">
+																		<input name="submit" type="submit" class="btn" value="Select" onclick="alert('you chose ' + theInput.value)"/>
+																		    <script language="JavaScript" type="Text/JavaScript">
+																		    	var theInput = document.getElementById('txtvarInput');
+																				</script>
+																</div>
+															</form>
+											</div>
+
+
+
+									    =======
+
+									    <div class="form-group">
+									      <label for="pwd">Password:</label>
+									      <input type="password" class="form-control" id="pwd">
+									    </div>
+
+									    <div class="form-group">
+									      <label for="zcode">Zipcode:</label>
+									      <input type="text" class="form-control" id="zcode">
+									      <div class="alert alert-info">
+											    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+											    <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
+											  </div>
+									    </div>
+
+									  </form>
+							</div>
+
+			<!--table class='row'>
+				<tr>
+					<td-->
+							<div class=".checkbox-inline">
+						  	<label><input type="checkbox" value="">Option 1</label>
+							</div>
+							<div class=".checkbox-inline">
+							  <label><input type="checkbox" value="">Option 2</label>
+							</div>
+							<div class=".checkbox-inline">
+							  <label><input type="checkbox" value="">Option 3</label>
+							</div>
+							<div class=".checkbox-inline">
+							  <label><input type="checkbox" value="">Option 4</label>
+							</div>
+							<div class=".checkbox-inline">
+							  <label><input type="checkbox" value="">Option 5</label>
+							</div>
+					
+</div>
+
+
+		<div>
+			<form role="form">
+		    <div class="form-group">
+		      <label for="sel1">Select list (select one):</label>
+		      <select class="form-control" id="sel1">	
+		        <option type="checkbox" value="">Animal 1</option>
+		        <option type="checkbox" value="">Animal 2</option>
+		        <option>3</option>
+		        <option>4</option>
+		      </select>      
+		    </div>
+		  </form>
+		</div>
+
+
+		<div class="row"> 
+      <div class="col span_5_of_6 margin_auto float_none align_left large_bottom_margin left_padding">         
+        <h6>
+		        <form id="selectPlayer"><strong>Select</strong>
+		        	<option>
+					          <label class="radio-inline"/>
+					            <input type="radio" name="optradio" id="rudrad" ng-model="content" value="1"/>Animal 1
+					          </label>
+					    </option>
+					    <option>
+					          <label class="radio-inline">
+					            <input type="radio" name="optradio" id="grirad" ng-model="content" value="2"/>Animal
+					          </label>
+					    </option>
+					    <option>
+					          <label class="radio-inline">
+					            <input type="radio" name="optradio" id="budrad" ng-model="content" value="3"/>Animal
+					          </label> 
+					    </option>
+
+		        </form>
+		    </h6>
+		  </div>
+		</div>
+
+
+
+		<div>
+			<form role="form">
+		    <div class="form-group">
+		      <label for="sel1">Select list (select one):</label>
+		      <select class="form-control" id="sel1">
+		      	<div>
+			        	<label class="radio-inline"/>
+			            <input type="radio" name="optradio" id="rudrad" ng-model="content" value="1"/>Animal in dropdown
+			          </label>
+			          <label class="radio-inline">
+			            <input type="radio" name="optradio" id="grirad" ng-model="content" value="2"/>Animal in dropdown 2
+			          </label>
+			          <label class="radio-inline">
+			            <input type="radio" name="optradio" id="budrad" ng-model="content" value="3"/>Animal in dropdown 3
+			          </label>
+		        </div>
+		      </select>      
+		    </div>
+		  </form>
+		</div>
+
+
+		<div>
+			<form role="form">
+		    <div class="form-group">
+		      <label for="sel1">Select list (select one):</label>
+		      <select class="form-control" id="sel1">	
+		        <option>
+		        		<label class="radio-inline"/>
+			            <input type="radio" name="optradio" id="rudrad" ng-model="content" value="1"/>Animal in dropdown
+			          </label>
+			      </option>
+		        <option>
+		        		<label class="radio-inline">
+			            <input type="radio" name="optradio" id="grirad" ng-model="content" value="2"/>Animal in dropdown 2
+			          </label>
+			      </option>
+		        <option>
+		        		<label class="radio-inline">
+			            <input type="radio" name="optradio" id="budrad" ng-model="content" value="3"/>Animal in dropdown 3
+			          </label>
+			      </option>
+		        <option>4</option>
+		      </select>      
+		    </div>
+		  </form>
+		</div>
+
+				<div>
+					<!--form role="form"-->
+				    <div class="form-group">
+				      <label for="sel1">Select list (select one):</label>
+				      <!--select class="form-control" id="sel1"-->	
+				      <ul class="dropdown-menu dropdown-menu-form">
+				        <li><label class="checkbox-inline"><input type="checkbox" value="">This is Animal 1</label></li>
+				        <li><label class="checkbox-inline"><input type="checkbox" value="">This is Animal 2</label></li>
+				        <li><label class="checkbox-inline"><input type="checkbox" value="">This is Animal 3</label></li>
+				        <li><label class="checkbox-inline"><input type="checkbox" value="">This is Animal 4</label></li>
+				      </ul>
+				      <!--/select-->      
+				    </div>
+				  <!--/form-->
+				</div>
+
+
+
+	</div>
+
+	</div>
+
+</body>
+<html>

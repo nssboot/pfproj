@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	    <script language="JavaScript" type="Text/JavaScript">
+	    	/*var theInput = document.getElementById('zip');								    	
+
+	    	function zipcode (inputtxt)    
+						{ 
+					    if (!inputtxt || !inputtxt.value) return false;
+					    var zipcodeVar = /^\+?([0-9]{2})\)?[-. ]?([0-9]{4})[-. ]?([0-9]{4})$/;  
+							alert(zipcodeVar)
+					    return ((inputtxt.value.match(zipcodeVar));
+						} */
+
+				function zipcodScript(e) {								
+				    if (e.keyCode == 13) {
+				        var theInput = document.getElementById("zipcod");				        
+				        alert("you submitted " + theInput.value);
+				        zipcodeevaluate(theInput.value);
+				        return false;
+				    }
+				}
+
+				function zipcodeevaluate(zipcodeentered) {
+					if (!zipcodeentered) {return false;}
+					else {
+							var zipcodeVar = (/^\d{5}(?:[-\s]\d{4})?$/.test(value.trim()) && value !== "zipcodeentered");					    
+					    alert("this is zipcodeVar " + zipcodeVar);
+							alert(((zipcodeentered.match(zipcodeVar))));
+					    return ((zipcodeentered.match(zipcodeVar)));
+					   }
+				};
+
+				</script>
+				
+				<script language="JavaScript" type="Text/JavaScript">
+		    	var theInput = document.getElementById('zipcod');		    	
+				</script>
+</head>
+<body>
+
+<!--h6>
+  <form class="well" name="formInput" action= "#">
+    <label class="col-md-4"/></label>
+  	  <label class="col-md-3"/><input type="text" name="zipbtn" id="zipcodeput" placeholder="Enter Zipcode"/></label> 
+		<div class="form-actions" "span3">
+			<input name="submit" type="submit" class="btn" value="Select" onclick="alert('you chose ' + theInput.value)"/!-->
+
+			<label for="zipcod">Enter Zip Code
+
+			<input required type="number" pattern="[0-9]*" maxlength="5" min="5" name="zipcod" Id="zipcod" onkeypress=" zipcodScript(event)"></label>
+
+
+
+
+			<!--input id="scriptBox" type="text" onkeypress="return runScript(event)" /-->
+
+				<!--label for="fname">First Name *</label>
+
+				<input required type="text" name="fname" id="fname"-->
+
+			<!--div class="hero-unit">													
+															<form class="well" name="formInput" action= "zipvalid">
+																		<label>Input
+																		<input Id="txtvarInput" class="span3" style="margin: 0pt auto;" type="text" placeholder="AAA, BBB, CCC..."/>               
+																		</label>
+																<div class="form-actions" "span3">
+																		<input name="submit" type="submit" class="btn" value="Select" onclick="alert('you chose ' + theInput.value)"/>
+																		    <script language="JavaScript" type="Text/JavaScript">
+																		    	var theInput = document.getElementById('txtvarInput');
+																				</script>
+																</div>
+															</form>
+											</div-->
+
+ <!-- theInput now has the zipcode by ID   
+
+		jQuery.validator.addMethod('zipcode', function(value, element) {
+
+			return this.optional(element) || !!value.trim().match(/^\d{5}(?:[-\s]\d{4})?$/) || !!value == "12345";
+
+			}, 'Invalid zip code');
+
+			 -->
+	<!-- 
+
+			return this.optional(element) || 
+		    (/^\d{5}(?:[-\s]\d{4})?$/.test(value.trim()) && value !== "12345");
+
+		or a little more robustly if you are in fact using the placeholder attribute:
+
+			return this.optional(element) || 
+		    (/^\d{5}(?:[-\s]\d{4})?$/.test(value.trim()) && 
+		           value !== $(element).attr('placeholder'));
+
+		           -->
+
+
+
+</body>
+</html>
+
